@@ -5,7 +5,7 @@ Make TiDB on cloud more native and nb native .
 - caohe
 
 # 项目介绍
-解决当前TiDB在云上云原生方式运维的局限性，为TiDB在云上提供更云原生，更智能化运维手段，提升运行时的稳定性。
+解决当前TiDB在云上云原生方式运维的局限性，为TiDB在云上提供更云原生，更智能化运维手段，提升运行时和运维变更的稳定性。
 
 # 背景
 当前 TiDB 基于 TiDB Operator 部署在 Kubernetes 上，基于云原生 Workload StateFulSet 部署和运行。基于此当前运维和管理有很多局限性，运维不够智能化，没有可观测性的界面了解云上集群状态和运维动作。
