@@ -37,7 +37,7 @@ Make TiDB on cloud more native and nb native .
 
 这里最难的就是要将管理 StatefulSet 的逻辑平滑切换到管理 Pod，这一点改动最大，也是最复杂的地方，需要考虑前后兼容性，之前 `TiDB Operator` 将 `TiDBMonitor` 从 `Deployment` 平滑迁移到 `Statefulset` 就遇到类似的问题。 
 
-![平滑迁移](https://github.com/NbNative/RFC/blob/main/upgrade.png)
+![平滑迁移](https://github.com/NbNative/RFC/blob/main/img/upgrade.png)
 
 可观测性需要实现以下功能:
 
@@ -45,7 +45,7 @@ Make TiDB on cloud more native and nb native .
 2. 集群实时状态信息的开发。
 3. Operator 运维事件消息和集群状态的联动设计。
 
-![项目架构图](https://github.com/NbNative/RFC/blob/main/backend.png)
+![项目架构图](https://github.com/NbNative/RFC/blob/main/img/backend.png)
 
 
 
