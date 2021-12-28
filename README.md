@@ -1,10 +1,12 @@
-# 
+# 引言
+本文向大家介绍最近参加 TiDB Hackathon 的一个赛题，如何让TiDB在云上更智能的运维。
+# TiDB Hackathon RFC
 Make TiDB on cloud more native and nb native .
 # 作者
-- [mikechengwei](https://github.com/mikechengwei)
-- [caohe](https://github.com/caohe)
-- [devenzhou](https://github.com/devenzhou)
-- [tomatopunk](https://github.com/tomatopunk)
+- [mikechengwei](https://github.com/mikechengwei) ，TiDB Operator Committer/Prometheus Operator Contributor.
+- [caohe](https://github.com/caohe) ，现就职于字节，云原生爱好者。
+- [devenzhou](https://github.com/devenzhou) ，现就职于同程，大数据资源组研发负责人。
+- [tomatopunk](https://github.com/tomatopunk) ，现就职于同程，云原生爱好者。
 
 # 项目介绍
 解决当前TiDB在云上云原生方式运维的局限性，为TiDB在云上提供云原生场景下智能化运维手段，让TiDB在云上自动化运维的同时，也能智能的说话。
@@ -47,5 +49,7 @@ Make TiDB on cloud more native and nb native .
 
 ![项目架构图](https://github.com/NbNative/RFC/blob/main/img/backend.png)
 
-
+# 小结
+我们会发现可观测性的概念也越来越火，因为我们在想方设法的找出分布式系统上云后的问题和Bug，这是一种被动的方式。
+基础研发们利用 Kubernetes Operator 将复杂的分布式系统搬到云上之后确实带来了很多不确定性和复杂度，从外部黑盒的角度来验证和测试这些组件的稳定性是手段之一。但是我觉得我们更应该主动出击，做更适合存储类型的云原生载体。
 
